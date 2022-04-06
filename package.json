@@ -1,0 +1,29 @@
+{
+  "name": "mime-standard",
+  "repository": "github:fabiospampinato/mime-standard",
+  "description": "An object mapping ~300 standard mime types to ~400 extensions.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex --watch",
+    "prepublishOnly": "npm run clean && npm run compile && npm run test"
+  },
+  "keywords": [
+    "mime",
+    "standard",
+    "map"
+  ],
+  "devDependencies": {
+    "fava": "^0.0.6",
+    "mime": "^3.0.0",
+    "tsex": "^1.0.6",
+    "typescript": "^4.6.3"
+  }
+}
