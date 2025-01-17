@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/mime-standard",
   "description": "An object mapping ~300 standard mime types to ~400 extensions.",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
