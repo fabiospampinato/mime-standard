@@ -2,6 +2,7 @@
   "name": "mime-standard",
   "repository": "github:fabiospampinato/mime-standard",
   "description": "An object mapping ~300 standard mime types to ~400 extensions.",
+  "license": "MIT",
   "version": "1.0.2",
   "type": "module",
   "main": "dist/index.js",
@@ -19,7 +20,7 @@
     "map"
   ],
   "devDependencies": {
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
